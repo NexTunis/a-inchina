@@ -1,0 +1,60 @@
+{
+  "brand": "Anood in China",
+  "apply": "Apply now",
+  "login": "Log in",
+  "logout": "Log out",
+  "email": "Email",
+  "send": "Send",
+  "close": "Close",
+  "all": "All",
+  "and": " and ",
+  "comma": ", ",
+  "required": "Required",
+  "optional": "Optional",
+  "language": "Language",
+  "demoData": "Demo data",
+  "docStatus": {
+    "verified": "Verified",
+    "pending": "Under review",
+    "rejected": "Re-upload needed",
+    "missing": "Not uploaded"
+  },
+  "bot": {
+    "hello": "Welcome to Anood in China! I'm the AI assistant. Ask me about scholarships, universities, documents and deadlines. How can I help?",
+    "eligibility": "Hello! Requirements depend on the level: for a Bachelor's we prefer a GPA above 75% and age under 25. A Master's requires a Bachelor's degree and age under 35. You can submit your papers for a direct evaluation with the apply button!",
+    "csc": "The government scholarship (CSC) covers full tuition and housing with a monthly stipend (3,000 CNY for Master's students). University or provincial scholarships cover tuition fully or partially. Our team picks the best option for your GPA!",
+    "docs": "The core documents are: 1. Transcript and certificate (translated and notarized) 2. Valid passport 3. Approved medical exam 4. Police clearance 5. Two recommendation letters. You can upload them through the portal.",
+    "deadline": "September intake applications usually open in November and close between March and April. Early March-intake applications open after September 20! We recommend preparing early to secure a seat.",
+    "fees": "Application fees vary by university and major (the university application fee is around 800 CNY). Applying through our site lets you see all packages and services transparently.",
+    "airport": "Absolutely! Our team in China (such as Shanghai Genius Students) picks you up at the airport, arranges your SIM card, university housing and a halal welcome meal, and stays with you until registration is complete!",
+    "medicine": "Yes, scholarships for general medicine (MBBS) are available at several universities and some include a monthly stipend. Tell me your GPA and I will suggest the best fit.",
+    "language": "English-taught programs usually require IELTS 6.0+, TOEFL 80+ or Duolingo 105+. Chinese-taught programs require HSK 4, 5 or 6. You are exempt if your previous degree was taught in English and verified.",
+    "visa": "After admission the university issues the admission letter and the JW201 or JW202 form, and we prepare a step-by-step visa guide for you to apply at the Chinese embassy.",
+    "unis": "We work with universities in Shanghai, Beijing, Nanjing, Hangzhou and Jinan, including Fudan, Southeast and Shandong. Browse the directory and filter by city and major.",
+    "human": "I have transferred you to an advisor from our team who will reply during working hours. You can also leave your request through the apply form so we reach you faster.",
+    "fallback": "Good question! I don't have a confirmed answer right now and I don't want to give you wrong information. Type \"advisor\" and I will transfer you to our team, or try asking about scholarships, documents or deadlines.",
+    "suggestions": [
+      "How do I know if my GPA qualifies for a scholarship?",
+      "What is the difference between the CSC government scholarship and a university scholarship?",
+      "What documents do I need to apply?",
+      "Will someone pick us up at the airport in China?"
+    ]
+  },
+  "cancel": "Cancel",
+  "save": "Save changes",
+  "edit": "Edit",
+  "delete": "Delete",
+  "remove": "Remove",
+  "view": "View",
+  "actions": "Actions",
+  "docPreview": {
+    "student": "Student",
+    "file": "File",
+    "size": "Size",
+    "uploaded": "Uploaded",
+    "status": "Status",
+    "rule": "Requirements",
+    "sample": "This is demo data, so this is a sample sheet instead of the real file.",
+    "noInline": "This file type cannot be previewed in the browser."
+  }
+}

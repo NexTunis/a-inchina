@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@import "@fontsource-variable/cairo";
+@import "@fontsource-variable/inter";
+
+@theme {
+  --font-sans: "Cairo Variable", "Inter Variable", system-ui, sans-serif;
+  --font-latin: "Inter Variable", system-ui, sans-serif;
+
+  --color-crimson-50: #fff1f3;
+  --color-crimson-100: #ffe0e5;
+  --color-crimson-200: #ffc2cc;
+  --color-crimson-500: #e0314d;
+  --color-crimson-600: #c8102e;
+  --color-crimson-700: #a50d26;
+  --color-crimson-800: #7e0a1d;
+
+  --color-gold-100: #fbf0c7;
+  --color-gold-300: #f2cf5b;
+  --color-gold-500: #e6b009;
+  --color-gold-700: #8a6a00;
+
+  --color-ink: #1a1d20;
+  --color-ink-2: #3c4147;
+  --color-ink-3: #5f666d;
+  --color-line: #e4e6e9;
+  --color-paper: #f8f9fa;
+  --color-ok: #1f7a4d;
+  --color-warn: #a35f00;
+
+  --radius-card: 1.25rem;
+  --radius-ctl: 0.75rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+.latin { font-family: var(--font-latin); direction: ltr; unicode-bidi: isolate; }
+:root[lang='en'] { --font-sans: "Inter Variable", "Cairo Variable", system-ui, sans-serif; }
+.zh { font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+
+::selection { background: var(--color-crimson-600); color: white; }
+
+:focus-visible { outline: 2px solid var(--color-crimson-600); outline-offset: 2px; }
+
+/* tinted dotted texture used behind hero and cta */
+.dots {
+  background-image: radial-gradient(rgb(26 29 32 / 0.14) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.dots-light {
+  background-image: radial-gradient(rgb(255 255 255 / 0.18) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+@keyframes float-y { 50% { transform: translateY(-8px); } }
+@keyframes ring { 0% { transform: scale(0.6); opacity: 0.7; } 100% { transform: scale(2.2); opacity: 0; } }
+@keyframes shimmer { to { background-position: -200% 0; } }
+.skeleton {
+  background: linear-gradient(90deg, #eceef0 25%, #f6f7f8 37%, #eceef0 63%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 0.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}

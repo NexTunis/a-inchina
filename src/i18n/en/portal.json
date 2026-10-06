@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "aria": "My account",
+    "overview": "Overview",
+    "documents": "My documents",
+    "applications": "Admissions",
+    "arrival": "Arrival",
+    "messages": "Messages"
+  },
+  "overview": {
+    "hello": "Hello {{name}}",
+    "stageNow": "You are now at: {{stage}}",
+    "progress": "Application progress",
+    "stages": "Your application stages",
+    "current": "Current stage",
+    "next": "Next step",
+    "nextDocs": "{{n}} documents need action from you",
+    "nextDocsCta": "Open documents",
+    "nextFlight": "Send your flight details so we can book your pickup",
+    "nextFlightCta": "Enter flight details",
+    "nextNone": "Nothing is needed from you right now, we are working on your application",
+    "nextNoneCta": "Message your advisor",
+    "summary": "Application summary",
+    "university": "University",
+    "major": "Major",
+    "intake": "Intake",
+    "reference": "University reference",
+    "updated": "Last update",
+    "verifiedDocs": "Verified documents",
+    "advisor": "Your advisor",
+    "message": "Message",
+    "noUni": "Not selected yet"
+  },
+  "docs": {
+    "title": "My documents",
+    "text": "Upload the required files and your advisor reviews them within one working day.",
+    "uploadedOn": "Uploaded on {{date}}",
+    "upload": "Upload file",
+    "reupload": "Upload again",
+    "uploading": "Uploading...",
+    "locked": "Verified by the team. This document is locked and cannot be changed."
+  },
+  "apps": {
+    "title": "Admissions",
+    "text": "The universities we apply to for you and your target scholarship.",
+    "first": "First choice",
+    "target": "Target scholarship",
+    "nominated": "Nominated for the scholarship",
+    "waiting": "Waiting for the university's decision",
+    "stipend": "Monthly stipend",
+    "status": {
+      "admitted": "Preliminary admission",
+      "review": "Under review",
+      "preparing": "Being prepared",
+      "submitted": "Submitted",
+      "rejected": "Rejected",
+      "closed": "Closed"
+    },
+    "emptyTitle": "No universities selected yet",
+    "emptyText": "Your advisor is choosing universities that fit your grades. They will appear here once they are added.",
+    "accepted": "Offer accepted",
+    "confirm": "Confirm this offer",
+    "confirmText": "Confirm {{name}} as your university. Your other applications will be closed.",
+    "confirmed": "You confirmed this offer",
+    "appNo": "Application no.",
+    "feePaid": "Fee paid",
+    "csc": "Scholarship result",
+    "cscResult": {
+      "pending": "Pending",
+      "selected": "Selected",
+      "notSelected": "Not selected"
+    },
+    "jw": "{{form}} visa form",
+    "jwSent": "Issued",
+    "jwWait": "Issued after you confirm",
+    "decided": "Decision on {{date}}",
+    "submitted": "Submitted on {{date}}",
+    "cscNote": "The scholarship result comes from the CSC, usually between June and August."
+  },
+  "arrival": {
+    "title": "Arriving in China",
+    "text": "Send your flight and we prepare everything before the plane lands.",
+    "earlyTitle": "It is still early for arrival",
+    "earlyText": "After your admission letter and visa arrive, your flight details and reception team appear here.",
+    "date": "Arrival date",
+    "time": "Arrival time",
+    "flight": "Flight number",
+    "flightHint": "Example: EK 304",
+    "submit": "Send flight details",
+    "err": "Fill in the date, time and flight number",
+    "airport": "Airport",
+    "steps": {
+      "flight": "Flight confirmed",
+      "driver": "Pickup driver assigned",
+      "housing": "University housing booked",
+      "pickup": "Pickup and registration"
+    },
+    "soon": "Soon",
+    "team": "Reception team",
+    "teamSub": "Shanghai Genius Students team, {{hub}}",
+    "noDriver": "We assign your pickup driver at least two days before your arrival.",
+    "sign": "We will send you a photo of the person holding a sign with your name at the arrivals gate."
+  },
+  "messages": {
+    "empty": "Start the conversation with your advisor.",
+    "placeholder": "Write a message to your advisor"
+  },
+  "upload": {
+    "title": "Upload document",
+    "replaceTitle": "Replace document",
+    "type": "Document type",
+    "drop": "Drop a file here or click to browse",
+    "formats": "Images, PDF or Word files, up to 10 MB",
+    "errType": "This file type is not supported. Use an image, PDF or Word file.",
+    "errSize": "The file is larger than 10 MB.",
+    "errNone": "Choose a file first.",
+    "replace": "Replace file",
+    "replaceNote": "Replacing the file sends this document back to review.",
+    "allLocked": "All of your documents are verified and locked."
+  }
+}

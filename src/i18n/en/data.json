@@ -1,0 +1,251 @@
+{
+  "stages": {
+    "1": {
+      "label": "Application received",
+      "hint": "Your application is in and an advisor has been assigned."
+    },
+    "2": {
+      "label": "Document review",
+      "hint": "We check your passport, certificates and translations."
+    },
+    "3": {
+      "label": "University selection",
+      "hint": "We choose universities and majors that fit your grades."
+    },
+    "4": {
+      "label": "Application filing",
+      "hint": "We submit your file to university and scholarship portals."
+    },
+    "5": {
+      "label": "Admission and visa",
+      "hint": "Your admission letter is in and we prepare JW201 / JW202 visa papers."
+    },
+    "6": {
+      "label": "Arrival planning",
+      "hint": "We book pickup and housing around your flight."
+    },
+    "7": {
+      "label": "Settling in China",
+      "hint": "Airport pickup, dorm check-in, registration and a SIM card."
+    },
+    "8": {
+      "label": "Post-arrival support",
+      "hint": "We follow your studies, residence permit renewals and support."
+    }
+  },
+  "docs": {
+    "passport": {
+      "label": "Passport",
+      "rule": "Colour scan of the data page, at least 18 months of validity"
+    },
+    "certificate": {
+      "label": "Graduation certificate",
+      "rule": "Translated into English or Chinese and notarized"
+    },
+    "transcript": {
+      "label": "Academic transcript",
+      "rule": "Full semester-by-semester record with GPA and official stamps"
+    },
+    "recommendation": {
+      "label": "Recommendation letters",
+      "rule": "Two letters from professors with signature and contact details (Master's and PhD)"
+    },
+    "language": {
+      "label": "Language certificate",
+      "rule": "IELTS 6.0+, TOEFL 80+ or HSK 4 and above"
+    },
+    "medical": {
+      "label": "Medical examination",
+      "rule": "Foreigner physical exam form with lab results, X-ray and hospital seal"
+    },
+    "police": {
+      "label": "Police clearance",
+      "rule": "Issued within the last 6 months and translated"
+    },
+    "financial": {
+      "label": "Bank statement",
+      "rule": "For self-funded students and partial scholarships"
+    },
+    "photo": {
+      "label": "Passport photo",
+      "rule": "Recent, white background"
+    }
+  },
+  "reasons": {
+    "blur": "The image is unclear, please scan it again",
+    "translation": "The translation is not notarized or stamped",
+    "expired": "The document is expired or older than 6 months",
+    "mismatch": "The details do not match the passport"
+  },
+  "unis": {
+    "fudan": {
+      "name": "Fudan University",
+      "ranking": "Among the top 3 universities in China"
+    },
+    "seu": {
+      "name": "Southeast University",
+      "ranking": "Strong in engineering and architecture"
+    },
+    "sdu": {
+      "name": "Shandong University",
+      "ranking": "One of the largest comprehensive universities"
+    },
+    "bfsu": {
+      "name": "Beijing Foreign Studies University",
+      "ranking": "Leading in languages and translation"
+    },
+    "zju": {
+      "name": "Zhejiang University",
+      "ranking": "Among the top 5 universities in China"
+    },
+    "nju": {
+      "name": "Nanjing University",
+      "ranking": "Historic and strong in core sciences"
+    },
+    "tongji": {
+      "name": "Tongji University",
+      "ranking": "A reference in civil engineering and design"
+    },
+    "bnu": {
+      "name": "Beijing Normal University",
+      "ranking": "Number one in education and psychology"
+    }
+  },
+  "cities": {
+    "shanghai": "Shanghai",
+    "beijing": "Beijing",
+    "nanjing": "Nanjing",
+    "hangzhou": "Hangzhou",
+    "jinan": "Jinan"
+  },
+  "programs": {
+    "business": "Business Administration",
+    "intlRelations": "International Relations",
+    "medicine": "Medicine",
+    "chineseLang": "Chinese Language",
+    "engineering": "Engineering",
+    "cs": "Computer Science",
+    "architecture": "Architecture",
+    "appliedSci": "Applied Sciences",
+    "mbbs": "General Medicine (MBBS)",
+    "tcm": "Traditional Chinese Medicine",
+    "humanities": "Humanities",
+    "science": "Science",
+    "translation": "Translation",
+    "media": "Media",
+    "economics": "Economics",
+    "physics": "Physics",
+    "literature": "Literature",
+    "intlBusiness": "International Business",
+    "civil": "Civil Engineering",
+    "design": "Design",
+    "education": "Education",
+    "psychology": "Psychology"
+  },
+  "levels": {
+    "bachelor": "Bachelor's",
+    "master": "Master's",
+    "phd": "PhD",
+    "language": "Chinese language"
+  },
+  "countries": {
+    "algeria": "Algeria",
+    "morocco": "Morocco",
+    "tunisia": "Tunisia",
+    "jordan": "Jordan",
+    "palestine": "Palestine",
+    "libya": "Libya",
+    "egypt": "Egypt",
+    "other": "Other"
+  },
+  "langs": {
+    "English": "English",
+    "Chinese": "Chinese"
+  },
+  "sources": {
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "telegram": "Telegram",
+    "website": "Website",
+    "friend": "Friend or family",
+    "other": "Other"
+  },
+  "intake": {
+    "sep2027": "September 2027",
+    "mar2027": "March 2027"
+  },
+  "hubs": {
+    "shanghai": "Shanghai",
+    "beijing": "Beijing"
+  },
+  "scholarships": {
+    "cscA": {
+      "name": "CSC Type A",
+      "source": "Ministry of Education through embassies",
+      "covers": [
+        "Full tuition waiver",
+        "Free campus dormitory",
+        "Medical insurance",
+        "Monthly stipend"
+      ],
+      "stipend": "About 3,000 CNY per month",
+      "who": "High grades and an application through the Chinese embassy in your country.",
+      "how": "Direct application through the embassy"
+    },
+    "cscB": {
+      "name": "CSC Type B",
+      "source": "Direct university nomination",
+      "covers": [
+        "Full tuition waiver",
+        "Campus housing",
+        "Comprehensive insurance",
+        "Monthly stipend"
+      ],
+      "stipend": "About 3,000 CNY per month",
+      "who": "Direct application to the university within nomination quotas.",
+      "how": "We apply for you through the university portal"
+    },
+    "prov": {
+      "name": "Provincial and city scholarships",
+      "source": "Shanghai, Jiangsu and other governments",
+      "covers": [
+        "Full or partial tuition",
+        "Housing allowance in some cases"
+      ],
+      "stipend": "Varies by province",
+      "who": "Outstanding students in priority majors.",
+      "how": "Application through the university"
+    },
+    "silk": {
+      "name": "Silk Road and university grants",
+      "source": "Universities and the Belt and Road Initiative",
+      "covers": [
+        "Partial tuition waiver",
+        "Subsidized housing"
+      ],
+      "stipend": "Varies by university",
+      "who": "Students from Belt and Road countries.",
+      "how": "Application through the university"
+    },
+    "self": {
+      "name": "Self-funded",
+      "source": "No scholarship",
+      "covers": [
+        "Direct university admission"
+      ],
+      "stipend": "None",
+      "who": "A bank statement is required.",
+      "how": "Direct application"
+    }
+  },
+  "thread": {
+    "t0": "Lina Al-Khatib was assigned as your advisor.",
+    "t1": "Hi Yasmine! We received your application. Upload your passport and transcript and we will start the review today.",
+    "t2": "Files uploaded. Is the translation good enough?",
+    "t3": "The translation is excellent, we only need the notarization stamp on the transcript.",
+    "t4": "Your file was submitted to Fudan University. Reference FD-26-1040.",
+    "t5": "Congratulations! Your preliminary admission letter arrived. We will send your visa guide within two days.",
+    "auto": "Thanks for your message, I got it and will reply with details during working hours."
+  }
+}

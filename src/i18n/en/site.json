@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "main": "Main navigation",
+    "menu": "Menu",
+    "universities": "Universities",
+    "scholarships": "Scholarships",
+    "process": "How it works",
+    "vlogs": "Student vlogs",
+    "account": "My account",
+    "admin": "Admin panel"
+  },
+  "footer": {
+    "tagline": "A study-in-China agency for Arab students: university admission, scholarships, visas, and airport pickup until the first day of class.",
+    "site": "Site",
+    "applyForm": "Application form",
+    "contact": "Contact",
+    "location": "Dubai and China",
+    "demo": "Demo version by Nextunis. All data on this site is mock data."
+  },
+  "hero": {
+    "title1": "Study in China, with us",
+    "title2": "all the way to campus",
+    "sub": "University admission, government scholarships and visa, then our team in China meets you at the airport and takes you home.",
+    "cta": "Apply now",
+    "how": "How it works"
+  },
+  "map": {
+    "aria": "Students traveling from North Africa and the Levant to Shanghai",
+    "chipAdmit": "Admission and scholarship",
+    "chipAdmitSub": "Fudan, Shanghai",
+    "chipArrived": "21 students arrived",
+    "chipArrivedSub": "Welcomed by our team at the airport",
+    "cities": {
+      "rabat": "Rabat",
+      "algiers": "Algiers",
+      "tunis": "Tunis",
+      "amman": "Amman",
+      "dubai": "Dubai",
+      "shanghai": "Shanghai",
+      "beijing": "Beijing"
+    }
+  },
+  "stats": {
+    "subs": "YouTube subscribers",
+    "followers": "Instagram followers",
+    "videos": "videos about studying in China",
+    "batch": "students in our latest arrival batch"
+  },
+  "journey": {
+    "eyebrow": "How it works",
+    "title": "One journey, eight clear stops",
+    "text": "Follow every stop from your own account, and we tell you what is next before you ask.",
+    "cta": "Open the demo account"
+  },
+  "scholar": {
+    "title": "Four ways to study on a scholarship, and we pick the best one",
+    "badge": "Most requested",
+    "cscTitle": "Chinese Government Scholarship (CSC)",
+    "cscText": "Full tuition, university housing, health insurance and a monthly stipend, through the embassy or a direct university nomination.",
+    "stipend": "CNY monthly stipend, approximately",
+    "provTitle": "Provincial scholarships",
+    "provText": "Shanghai, Jiangsu and more, with full or partial tuition for high achievers.",
+    "silkTitle": "Silk Road grants",
+    "silkText": "Partial waivers and subsidized housing for students from Belt and Road countries.",
+    "uniTitle": "Direct university scholarships",
+    "uniText": "Waivers and grants offered by the university itself. We compare them with your other options based on your GPA and major.",
+    "compare": "Compare scholarships"
+  },
+  "marquee": {
+    "title": "Universities in China's top cities",
+    "cta": "Browse the full directory"
+  },
+  "arrival": {
+    "title": "You will not arrive alone in a new country",
+    "text1": "The \"Shanghai Genius Students\" team is on the ground in Shanghai and Beijing. They meet students, carry bags and stay until registration is complete.",
+    "text2": "Parents are reassured too, because they see arrival and registration photos in their child's account.",
+    "batch": "Arrival batch to Shanghai",
+    "students": "21 students",
+    "done": "Batch complete",
+    "steps": {
+      "airport": {
+        "t": "Airport pickup",
+        "s": "We wait at the arrivals gate"
+      },
+      "sim": {
+        "t": "SIM card",
+        "s": "Call your family within the first hour"
+      },
+      "dorm": {
+        "t": "University housing",
+        "s": "Check-in and room handover"
+      },
+      "dinner": {
+        "t": "Halal dinner",
+        "s": "With the rest of your arrival batch"
+      },
+      "register": {
+        "t": "University registration",
+        "s": "We go with you to the international students office"
+      }
+    }
+  },
+  "vlogs": {
+    "title": "See what the first week in China looks like",
+    "text": "Real daily vlogs Anood filmed with every batch that arrived.",
+    "items": {
+      "v1": "Part 1: How we prepared the students' essentials before they arrived",
+      "v2": "Part 2: The student reception journey in China",
+      "v3": "Part 4: Registering at the university",
+      "v4": "My surprise for the students in China"
+    }
+  },
+  "cta": {
+    "title": "Start your application before seats fill up",
+    "text": "Early applications for the March intake are open now. Answer a few simple questions and we evaluate your profile for free.",
+    "track": "Track my application"
+  },
+  "chat": {
+    "title": "Anood assistant",
+    "sub": "Answers around the clock",
+    "open": "Open the AI assistant",
+    "typing": "Typing",
+    "welcome": "Hi! I'm the Anood in China assistant. Ask me about scholarships, universities and documents and I will answer right away.",
+    "placeholder": "Type your question here",
+    "cta": {
+      "apply": "Apply now",
+      "universities": "Browse universities",
+      "scholarships": "Scholarship guide"
+    }
+  },
+  "unis": {
+    "title": "University directory",
+    "text": "Pick a city, a major and a teaching language, and we recommend what fits your grades.",
+    "search": "Search for a university or major",
+    "city": "City",
+    "lang": "Teaching language",
+    "langAll": "All languages",
+    "langEn": "In English",
+    "langZh": "In Chinese",
+    "emptyTitle": "No results",
+    "emptyText": "Try another city or clear the search.",
+    "tuition": "Yearly tuition: {{min}} - {{max}} CNY",
+    "appFee": "Application fee about {{fee}} CNY"
+  },
+  "schol": {
+    "title": "Scholarship guide",
+    "text": "See what each scholarship covers, who qualifies, and how we apply for you.",
+    "stipend": "Stipend",
+    "who": "Who qualifies",
+    "how": "How to apply",
+    "intake": {
+      "sep": {
+        "t": "September intake",
+        "d": "Applications open from November until March or April"
+      },
+      "mar": {
+        "t": "March intake",
+        "d": "Early applications open after September 20, mostly for language study"
+      }
+    },
+    "ctaTitle": "Not sure which scholarship fits you?",
+    "ctaText": "Enter your GPA and age for a free first evaluation. Every application moves through {{n}} clear stages.",
+    "ctaBtn": "Evaluate my profile"
+  },
+  "apply": {
+    "title": "Apply in two minutes",
+    "text": "We evaluate your profile instantly and an advisor contacts you. You upload your papers later from your account.",
+    "points": [
+      "Free first evaluation",
+      "An account to follow every stage",
+      "A dedicated advisor"
+    ],
+    "name": "Full name",
+    "phone": "Phone or WhatsApp number",
+    "country": "Country",
+    "age": "Age",
+    "level": "Level of study",
+    "gpa": "GPA out of 100",
+    "major": "Desired major",
+    "scholarship": "Preferred scholarship type",
+    "submit": "Submit my application",
+    "sending": "Evaluating your profile...",
+    "errName": "Enter your full name",
+    "errEmail": "Enter a valid email address",
+    "errPhone": "Enter a valid phone or WhatsApp number",
+    "errAge": "Enter a valid age",
+    "errGpa": "Enter your GPA out of 100",
+    "errMajor": "Enter your desired major",
+    "reasonAge": "The preferred age for a {{level}} is under {{max}}",
+    "reasonGpa": "A GPA of 75% or higher is preferred for government scholarships",
+    "doneTitle": "We got your application, {{name}}",
+    "ref": "Application number",
+    "okText": "First evaluation: your profile fits scholarship applications. An advisor will contact you soon.",
+    "reviewTitle": "First evaluation: your profile needs an advisor's review",
+    "reviewNote": "This is not a rejection. Other options exist, such as partial scholarships and self-funded study.",
+    "account": "We created an account so you can follow your application. Demo login: your email and the password",
+    "openAccount": "Open my account",
+    "backHome": "Back to home",
+    "source": "How did you hear about us?",
+    "sourcePlaceholder": "Select an option",
+    "errSource": "Tell us how you heard about us"
+  },
+  "login": {
+    "text": "Students follow their applications here, and the team signs in to the admin panel.",
+    "password": "Password",
+    "show": "Show password",
+    "hide": "Hide password",
+    "submit": "Log in",
+    "checking": "Checking...",
+    "error": "The email or password is incorrect",
+    "demo": "Demo accounts",
+    "adminAcc": "System admin (ERP)",
+    "studentAcc": "Student: Yasmine Ben Ali",
+    "hint": "Click an account to fill in the details automatically.",
+    "side1": "Every stage of your journey",
+    "side2": "in one place",
+    "sideText": "Documents, admission status, arrival date and messages from your advisor."
+  }
+}
